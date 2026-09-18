@@ -1,138 +1,76 @@
 # ComBox — Commercial Management Software
 
-ComBox is a multi-module Windows desktop application for day-to-day commercial management: **stock, sales, purchasing, customers, suppliers, cash, inventory and reporting**.
+ComBox is a Windows desktop application developed at **NTICBOX** to manage day-to-day commercial operations in one place: products and stock, sales, purchasing, customers, suppliers, cash, inventory and reporting.
 
-I co-developed the product as part of a small NTICBOX software team. Initial development began around 2017, and the application continued to evolve and remain in commercial use in later versions.
-
-Over its lifecycle, ComBox was commercially deployed and used by **dozens of customers**.
+I co-developed ComBox with a small three-person software team. Development started around 2017, and the product continued to evolve in later versions. It was commercially deployed and used by **dozens of customers**.
 
 ![ComBox dashboard](assets/dashboard.png)
 
-## At a glance
+## Product overview
 
 | Area | Details |
 |---|---|
-| Product | Commercial management desktop software |
+| Product type | Commercial management desktop software |
 | Organization | NTICBOX |
-| My contribution | Co-development as part of a small software team |
+| My role | Co-development as part of a three-person software team |
 | Technologies | WINDEV / WLanguage, HFSQL |
 | Main areas | Stock, sales, purchasing, customers, suppliers, cash, inventory, reporting |
-| Deployment | Commercially used by dozens of customers |
+| Product lifecycle | Initial development around 2017, followed by continued evolution and commercial use |
+| Deployment | Used by dozens of customers |
 
-## What ComBox manages
+## Functional coverage
 
-ComBox connects several everyday business workflows in one application rather than treating stock, sales and purchasing as isolated tasks.
+ComBox brings several connected business workflows into the same application.
 
-### Stock and products
+| Area | Main capabilities |
+|---|---|
+| Products & stock | Product catalogue, categories, quantities, units, purchase/wholesale/retail prices, stock value, stock movements |
+| Sales & customers | Counter sales, delivery notes, invoices, proforma invoices, customer returns, payments and customer situation |
+| Purchasing & suppliers | Receptions/purchases, supplier documents, received items, quantities, prices and supplier follow-up |
+| Cash & payments | Cash journal, entries/exits, credit and payment follow-up |
+| Inventory | Inventory sessions, data entry, closure and inventory journal |
+| Reporting | Commercial journal, document totals, movement history and operational statistics |
+| Administration | Users, account settings, product/customer categories, units of measure and company settings |
 
-The stock module provides a searchable product catalogue with:
+## Stock and product management
 
-- product reference and designation;
-- category;
-- current quantity;
-- unit of measure;
-- purchase price;
-- wholesale price;
-- retail price;
-- overall stock-value visibility.
+The stock view combines catalogue information with quantities and pricing. Products can be searched by reference, designation or category, while the screen also gives an overall view of stock value.
 
 ![Stock management](assets/stock.png)
 
-### Sales and customer documents
+## Sales and customer documents
 
-The sales area covers multiple document and customer workflows, including counter sales, delivery notes, invoices, proforma invoices, customer returns and customer payments.
-
-Delivery-note views combine document-level information with the associated product lines, quantities and prices.
+Sales workflows include counter sales and commercial documents such as delivery notes, invoices and proforma invoices. Delivery-note screens combine document-level information with the corresponding product lines, quantities and prices.
 
 ![Sales and delivery notes](assets/delivery-notes.png)
 
-### Purchasing and receptions
+## Purchasing and receptions
 
-Purchase/reception workflows track incoming goods by supplier, document, date and value, together with the received line items and unit prices.
+Incoming goods are recorded through reception/purchasing workflows linked to suppliers. The application tracks document numbers, dates, amounts and received line items with quantities and unit prices.
 
-![Purchase and reception documents](assets/receptions.png)
+## Product movement history
 
-### Product movement history
-
-ComBox provides product-level traceability across stock movements.
-
-For a selected product, the application can display:
-
-- current quantity;
-- purchase and sales movement history;
-- related document/movement numbers;
-- counterparties;
-- quantities and prices;
-- purchase and sales totals;
-- average purchase/sales price indicators.
+A dedicated movement view makes it possible to follow a product across purchases and sales. It combines the current stock position with transaction history, counterparties, document numbers, quantities and prices, together with purchase/sales summary indicators.
 
 ![Product movement history](assets/product-movements.png)
 
-### Journal and reporting
+## Journal, cash and reporting
 
-The application also consolidates commercial activity into reporting/journal views that combine documents, dates, counterparties and values.
-
-This gives users a broader operational view of sales, purchasing, stock movements and financial follow-up.
+ComBox also provides consolidated views for commercial activity and cash follow-up. The journal brings together documents, dates, counterparties and amounts, while summary values provide a quick operational picture of purchases, sales, entries, exits, credit and result.
 
 ![Commercial journal and reporting](assets/journal.png)
 
-## Other functional areas
-
-The product also includes functionality for:
-
-- customer and supplier records;
-- customer and supplier payment follow-up;
-- customer situation/balance views;
-- cash journal and cash movements;
-- inventory sessions and inventory closure;
-- reports and statistics;
-- user/account management;
-- product categories and units of measure;
-- company settings.
-
 ## Technical profile
 
-| Area | Implementation |
-|---|---|
-| Application type | Windows desktop business application |
-| Development environment | WINDEV / WLanguage |
-| Data storage | HFSQL |
-| Architecture focus | Multi-module commercial workflows with shared business data |
-| Product lifecycle | Initial development around 2017, followed by continued evolution and commercial use |
+ComBox is built with **WINDEV / WLanguage** and uses **HFSQL** for its business data. Its modules share product, customer, supplier and transaction information across commercial workflows instead of operating as isolated screens.
 
-The original project remains in WINDEV's native project format. This public repository focuses on the verified product scope, workflows and selected evidence rather than republishing proprietary project/database files.
+The surviving project package contains the native WINDEV application structure and data definitions. This repository presents selected screens and technical documentation rather than the private source project and business database.
 
-## Commercial product experience
+## Project evidence
 
-ComBox was not only a development exercise. It was packaged, deployed and used by real customers.
+The case study is based on the surviving ComBox project package and screens from working versions of the product. The screenshots published here were selected to show different parts of the application without turning the repository into a full user manual.
 
-The public case study intentionally uses the conservative statement **“dozens of customers”** and does not publish sales figures, revenue metrics or unsupported adoption counts.
-
-## Team contribution
-
-ComBox was a team-developed NTICBOX product.
-
-My work formed part of the product's development and evolution, but this repository does not assign artificial contribution percentages or present the product as a solo project.
-
-## Evidence
-
-The case study is supported by:
-
-- the surviving WINDEV project package;
-- application screens from multiple functional modules;
-- HFSQL-based application data structures;
-- later-version screens showing continued product evolution and use;
-- first-hand project context.
-
-Selected application screenshots are published with permission. Raw source-project files, database files, credentials and license data remain private.
-
-See:
+More detail:
 
 - [Technical Notes](docs/technical-notes.md)
 - [Evidence & Confidentiality](evidence/README.md)
-
-## Scope note
-
-ComBox is presented as **commercial management software**.
-
-The portfolio does not label it as a full ERP, accounting suite or CRM platform because those labels imply broader scope than is necessary to demonstrate the product's actual capabilities.
