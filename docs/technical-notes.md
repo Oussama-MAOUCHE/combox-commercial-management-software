@@ -1,37 +1,35 @@
 # Technical Notes
 
-## Product structure
+## Application structure
 
-ComBox is a multi-module desktop business application built around shared commercial data and workflows.
+ComBox is a multi-module Windows desktop application built around shared commercial data and workflows.
 
-The evidence reviewed supports modules covering:
+The reviewed project material supports the following main areas:
 
 - products and stock;
-- sales;
-- purchasing/receptions;
-- customers;
-- suppliers;
-- cash/payment follow-up;
+- sales and customer documents;
+- purchasing and receptions;
+- customers and suppliers;
+- payments and cash;
 - inventory;
-- reporting/statistics;
+- reporting and statistics;
 - users and application settings.
 
-## Development environment
+## Technology
 
 The commercially used product is based on:
 
-- WINDEV;
-- WLanguage;
-- HFSQL.
+- **WINDEV**
+- **WLanguage**
+- **HFSQL**
 
-The public case study does not expose raw native project/database artifacts.
+The modules share business data across product, customer, supplier and transaction workflows.
 
-## Stock model and product views
+## Products and stock
 
-The product catalogue/stock view includes concepts such as:
+The product/stock model includes concepts such as:
 
-- product reference;
-- designation;
+- reference and designation;
 - category;
 - stock quantity;
 - unit of measure;
@@ -40,120 +38,73 @@ The product catalogue/stock view includes concepts such as:
 - retail price;
 - stock value.
 
-Search/filtering is available by product reference, designation and category.
+Search and filtering are available by reference, designation and category.
 
 ## Sales workflow
 
-Visible sales capabilities include:
+The reviewed application material includes:
 
 - counter sales;
-- sales list;
-- new sale;
+- sales lists;
 - delivery notes;
 - invoices;
 - proforma invoices;
 - availability attestations;
 - customer returns;
-- customer list;
+- customer records;
 - customer payments;
-- customer-situation views.
+- customer situation/balance views.
 
-Delivery-note screens link document-level information with line-item details.
+Commercial-document screens link header information with the corresponding line items.
 
 ## Purchasing workflow
 
-Reception/purchasing screens link supplier-side documents with:
+Reception/purchasing records connect supplier-side documents with received products, quantities, unit prices and totals.
 
-- reception/document number;
-- date;
-- supplier;
-- amount;
-- received product lines;
-- quantities;
-- unit prices;
-- line totals.
+This provides the incoming side of the same product/stock flow used by sales.
 
-## Product movement traceability
+## Product traceability
 
-A product-movement view provides item-level history and summary information.
+The product-movement view combines item information with chronological transaction history.
 
 Visible information includes:
 
-- movement date;
-- action;
+- movement date and action;
 - counterparty;
 - document/movement number;
-- quantity;
-- price;
+- quantity and price;
 - current stock quantity;
-- purchased quantity;
-- sold quantity;
-- total purchases;
-- total sales;
+- purchased and sold quantities;
+- purchase and sales totals;
 - average purchase/sales price indicators.
 
-The portfolio does not infer full accounting or cost-accounting functionality from these values.
+## Cash, inventory and reporting
 
-## Cash and reporting
+The reviewed project material also includes:
 
-The application includes cash/journal and reporting views.
+- cash journal and cash movements;
+- entries/exits and credit follow-up;
+- inventory creation, entry, closure and journal;
+- commercial journal/reporting views;
+- document counts and operational totals.
 
-Visible reporting concepts include:
-
-- commercial documents;
-- dates;
-- counterparties;
-- amounts;
-- purchase/sales totals;
-- entries/exits;
-- credit;
-- result-oriented summaries;
-- document counts.
-
-These are presented as operational/commercial reporting rather than formal financial accounting.
-
-## Inventory
-
-The inventory area includes:
-
-- new inventory;
-- inventory entry;
-- closure;
-- inventory journal.
+These features support day-to-day commercial follow-up alongside stock, sales and purchasing.
 
 ## Configuration
 
-Visible configuration areas include:
+Application settings cover areas such as:
 
 - users;
-- account;
+- account settings;
 - product categories;
 - units of measure;
 - customer categories;
-- company settings.
+- company information.
 
-## Product lifecycle
+## Product lifecycle and team
 
-Initial development began approximately in 2017.
+Initial development began approximately in **2017**.
 
-The user confirms that ComBox continued to evolve and remained in commercial use in later versions. The supplied screenshots include later-version activity, so the portfolio treats ComBox as an evolving commercial product rather than a one-time 2017 snapshot.
+ComBox was developed by a small three-person NTICBOX team and continued to evolve in later versions. The product was commercially deployed and used by dozens of customers.
 
-## Team-development boundary
-
-The application was developed by a small NTICBOX team.
-
-Approved public wording:
-**co-developed as part of a small NTICBOX software team.**
-
-The portfolio does not claim solo authorship or assign exact contribution percentages.
-
-## Scope boundary
-
-The current evidence supports the label **Commercial Management Software**.
-
-Do not expand that to:
-- full ERP;
-- accounting suite;
-- CRM platform;
-- e-commerce platform;
-without additional evidence and a concrete reason.
+This repository documents the product and the development work I contributed to; it is not presented as a solo project.
