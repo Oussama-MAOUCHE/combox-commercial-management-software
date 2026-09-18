@@ -107,4 +107,4 @@ Initial development began approximately in **2017**.
 
 ComBox was developed by a small three-person NTICBOX team and continued to evolve in later versions. The product was commercially deployed and used by dozens of customers.
 
-This repository documents the product and the development work I contributed to; it is not presented as a solo project.
+My contribution was part of the team's development and continued evolution of the product.
