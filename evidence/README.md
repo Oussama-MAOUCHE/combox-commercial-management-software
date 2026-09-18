@@ -27,4 +27,4 @@ The following material remains private:
 
 The About/activation screen is intentionally excluded because it contains license/serial information.
 
-The public repository is therefore a portfolio case study of the product's design and functional breadth, not a distribution of the original commercial source project.
+The repository documents the product through selected screens and technical notes while keeping the original commercial project and data private.
