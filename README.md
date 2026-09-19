@@ -12,7 +12,7 @@ I co-developed ComBox with a small three-person software team. Development start
 |---|---|
 | Product type | Commercial management desktop software |
 | Organization | NTICBOX |
-| My role | Co-development as part of a three-person software team |
+| My role | Co-development and functional testing of the features/modules I implemented within a three-person software team |
 | Technologies | WINDEV / WLanguage, HFSQL |
 | Main areas | Stock, sales, purchasing, customers, suppliers, cash, inventory, reporting |
 | Product lifecycle | Initial development around 2017, followed by continued evolution and commercial use |
@@ -31,6 +31,16 @@ ComBox brings several connected business workflows into the same application.
 | Inventory | Inventory sessions, data entry, closure and inventory journal |
 | Reporting | Commercial journal, document totals, movement history and operational statistics |
 | Administration | Users, account settings, product/customer categories, units of measure and company settings |
+
+## My testing contribution
+
+For the features and modules I developed, I also performed developer-led functional testing before they were put into use and as the product evolved.
+
+My checks focused on whether the implemented behavior worked through its intended business flow, including the screens and actions I had developed, the data displayed and stored by those workflows, and their interaction with connected commercial data.
+
+Because ComBox was a team-developed product, this does **not** mean that I was solely responsible for product-wide QA or that I independently tested every module. The testing claim in this case study is limited to the parts I personally implemented and checked.
+
+No separate formal test plan or execution log is published in this repository. This testing description is based on first-hand project context together with the surviving application project and screens.
 
 ## Stock and product management
 
