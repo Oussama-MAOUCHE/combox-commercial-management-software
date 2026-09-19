@@ -34,9 +34,9 @@ ComBox brings several connected business workflows into the same application.
 
 ## My testing contribution
 
-For the features and modules I developed, I also performed developer-led functional testing before they were put into use and as the product evolved.
+For the features and modules I personally implemented, I also performed developer-led functional testing as part of the development work.
 
-My checks focused on whether the implemented behavior worked through its intended business flow, including the screens and actions I had developed, the data displayed and stored by those workflows, and their interaction with connected commercial data.
+My checks focused on the behavior I had built and its fit within the connected commercial workflows.
 
 Because ComBox was a team-developed product, this does **not** mean that I was solely responsible for product-wide QA or that I independently tested every module. The testing claim in this case study is limited to the parts I personally implemented and checked.
 
